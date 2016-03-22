@@ -1,0 +1,22 @@
+header {
+  border: solid 1px red;
+  height: 6em;
+  background-color: rgb(211, 84, 0);
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Dosis', sans-serif;*/
+}
+
+#name {
+  float: left;
+  margin-left: 10px;
+  font-size: 4em;
+  margin-top: 44px;
+  color: white;
+}
+
+.navs {
+  float: right;
+  margin-top: 70px;
+  margin-right: 4em;
+  display: inline-block;
+}

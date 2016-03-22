@@ -1,0 +1,41 @@
+<!-- index.html -->
+    <!DOCTYPE html>
+    <html ng-app="myCoolApp">
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Dosis:400,800' rel='stylesheet' type='text/css'>
+        <link rel = "stylesheet" href= "assets/css/index.css">
+        <link rel = "stylesheet" href= "assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+
+    <body ng-controller = "mainController">
+
+        <!-- HEADER AND NAVBAR -->
+        <header>
+
+          <ul class="nav navbar-nav navbar-right">
+
+                  <li class = "navs"><a href="#/hike" class="refs"><i class="fa fa-comment"></i>Hike</a></li>
+                  <li class = "navs"><a href="#/home" class="refs"><i class="fa fa-home"></i> Home</a></li>
+                  <li class = "navs"><a href="#/climb" class="refs"><i class="fa fa-shield"></i>Climb</a></li>
+                  <li class = "navs" id = "name"> OnRock</li>
+               </ul>
+        </header>
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+
+        <ng-view></ng-view>
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+
+      <!-- <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+      <script src="assets/js/app.js"></script>
+      <script src="assets/js/home.js"></script>
+      <script src="assets/js/climb.js"></script>
+      <script src="assets/js/hike.js"></script>
+
+    </body>
+    </html>
